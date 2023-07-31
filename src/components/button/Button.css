@@ -1,0 +1,18 @@
+.main-button {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  width: 5.25rem;
+  height: 2.875rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: none;
+
+  background-color: var(--tag-and-button);
+  color: var(--text-dark);
+
+  margin: 0.4rem;
+}

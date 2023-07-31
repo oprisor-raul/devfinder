@@ -1,0 +1,23 @@
+.header .theme-switch {
+  display: flex;
+  align-items: center;
+  height: 1.25rem;
+  padding-left: 0px;
+  justify-content: center;
+  gap: 1rem;
+  border: none;
+
+  text-align: right;
+  font-family: Space Mono;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15625rem;
+
+  background-color: transparent;
+}
+
+.header button {
+  color: var(--text);
+}

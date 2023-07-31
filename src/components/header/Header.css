@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-inline: 1.5rem;
+  padding-top: 2rem;
+}
+
+.header__logo {
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--logo);
+}
+/* 
+.header div {
+  background-color: var(--background);
+} */
