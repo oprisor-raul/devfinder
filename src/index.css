@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 :root {
   --background-light: #f6f8ff;
   --background-dark: #141d2f;
@@ -31,10 +26,8 @@ code {
   --warning: #f74646;
 
   --tag-and-button: #0079ff;
-}
 
-body {
-  transition: background-color 0.3s ease, color 0.3s ease;
+  --created-at-light: #697c9a;
 }
 
 body[data-theme="light"] {
@@ -43,6 +36,7 @@ body[data-theme="light"] {
   --text: var(--text-light);
   --text-stats: var(--text-light-stats);
   --banner: var(--banner-light);
+  --created-at: var(--text-light-stats);
 }
 
 body[data-theme="dark"] {
@@ -51,6 +45,7 @@ body[data-theme="dark"] {
   --text: var(--text-dark);
   --text-stats: var(--text-dark-stats);
   --banner: var(--banner-dark);
+  --created-at: var(--text-dark);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");

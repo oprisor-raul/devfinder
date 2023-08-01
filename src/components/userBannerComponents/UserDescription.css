@@ -1,0 +1,75 @@
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 1rem;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h2 {
+  color: var(--text-stats);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.info h3 {
+  color: var(--tag-and-button);
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 0.4rem;
+}
+
+.info p {
+  color: var(--created-at);
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bio {
+  padding-top: 2.1rem;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  color: var(--text);
+}
+
+.user-description {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    width: 7.3rem;
+    height: 7.3rem;
+  }
+
+  .info h2 {
+    font-size: 1.625rem;
+  }
+
+  .info h3 {
+    font-size: 1rem;
+  }
+
+  .info p {
+    font-size: 0.93rem;
+  }
+
+  .bio {
+    font-size: 0.93rem;
+  }
+}

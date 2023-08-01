@@ -59,3 +59,23 @@
   color: var(--text);
   opacity: 1;
 }
+
+.no-result {
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--warning);
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    height: 4.3rem;
+  }
+
+  .no-result {
+    padding-right: 1.5rem;
+  }
+}

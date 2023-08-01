@@ -1,17 +1,20 @@
 import React, { useContext } from "react";
 import { UserContext } from "./UserProvider";
+import UserBannerLoading from "../userBanner/UserBannerLoading";
+import UserBanner from "../userBanner/UserBanner";
 
 const DevUser = () => {
   const { user, loading, error } = useContext(UserContext);
   return (
     <div>
-      {loading && <p>Loading...</p>}
-      {error && <p>Something went wrong</p>}
-      {user && (
-        <div>
-          <h1>{user.name}</h1>
-          <img src={user.avatar_url} alt={user.name} />
-        </div>
+      {loading ? (
+        <UserBannerLoading />
+      ) : error ? (
+        <UserBanner />
+      ) : user ? (
+        <UserBanner user={user} />
+      ) : (
+        <UserBanner />
       )}
     </div>
   );

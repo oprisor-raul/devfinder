@@ -1,0 +1,53 @@
+.user-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5.3125rem;
+  flex-shrink: 0;
+  background-color: var(--background);
+  border-radius: 0.625rem;
+  flex-direction: row;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.user-stats h6 {
+  text-align: center;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.user-stats p {
+  color: var(--text-stats);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.user-stats__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.1rem;
+  padding-bottom: 1.2rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .user-stats h6 {
+    font-size: 0.8125rem;
+  }
+
+  .user-stats p {
+    font-size: 1.375rem;
+  }
+}

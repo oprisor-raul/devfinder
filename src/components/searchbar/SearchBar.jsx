@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import Button from "../button/Button";
 import SearchIcon from "../../assets/icon-search.svg";
 import "./SearchBar.css";
+import { useContext } from "react";
+import { UserContext } from "../user/UserProvider";
 
 function SearchBar({ onSearch }) {
+  const { error } = useContext(UserContext);
+
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleChange = (event) => {
@@ -24,7 +28,8 @@ function SearchBar({ onSearch }) {
         value={searchTerm}
         onChange={handleChange}
       />
-      <Button onClick={handleSubmit}>Search</Button>
+      {error && <p className="no-result">No&nbsp;results</p>}
+      <Button onClick={handleSubmit}>Search</Button>{" "}
     </div>
   );
 }

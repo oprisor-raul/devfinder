@@ -1,0 +1,45 @@
+.social {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.social_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.social_info img {
+  color: var(--text);
+  padding-right: 1rem;
+}
+
+.social_info p {
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow: hidden;
+  margin-right: 1.5rem;
+  /* Se continua pe a doua linie
+  white-space: pre-wrap; */
+
+  /* Se scrie cu ... daca nu incape pe o linie */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.not-available {
+  opacity: 0.4;
+}
+
+@media screen and (min-width: 768px) {
+  .social_info p {
+    font-size: 0.9375rem;
+  }
+  .social_info img {
+    padding-right: 1.5rem;
+  }
+}
