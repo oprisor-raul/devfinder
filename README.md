@@ -4,8 +4,22 @@
 
 Your challenge is to build out this GitHub user search app using the [GitHub users API](https://docs.github.com/en/rest/reference/users#get-a-user) and get it looking as close to the design as possible.
 
-## Technical Stack Utilized in the Project
+## Stack Utilized in the Project
 This project was primarily developed as an initiation into the intricate world of React. It provided a comprehensive overview features, such as the useContext and useEffect hooks. A cornerstone of this project was the organization of the codebase, with an emphasis on creating compact, reusable components to ensure efficiency and maintainability
+
+## Screenshots
+![Desktop Dark Mode Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/desktop-dark.png)
+
+![Desktop Light Mode Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/desktop-light.png)
+
+![Mobile Dark Mode Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/mobile-dark.png)
+
+![Mobile Light Mode Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/mobile-light.png)
+
+![Tablet Dark Mode Error Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/tablet-dark-error.png)
+
+![Tablet Light Mode Screenshot](https://github.com/oprisor-raul/devfinder/blob/main/screenshots/tablet-light.png)
+
 
 ### Goal
 Users should be able to:
