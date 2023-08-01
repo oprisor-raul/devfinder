@@ -19,17 +19,13 @@ const UserDescription = ({ avatar_url, name, login, created_at, bio }) => {
           </p>
         </div>
       </div>
-      <p className="bio">{bio}</p>
+      {bio ? (
+        <p className="bio">{bio}</p>
+      ) : (
+        <p className="bio not-available-bio">This profile has no bio</p>
+      )}{" "}
     </div>
   );
-};
-
-UserDescription.defaultProps = {
-  avatar_url: "https://avatars.githubusercontent.com/u/4853930?v=4",
-  name: "Dominik Knoll",
-  login: "djknoll",
-  created_at: "2013-06-27T17:39:07Z",
-  bio: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros",
 };
 
 export default UserDescription;

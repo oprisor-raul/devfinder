@@ -1,10 +1,10 @@
 import Providers from "./components/main/Providers";
-import AppController from "./components/controller/AppController";
+import AppContainer from "./components/controller/AppContainer";
 
 function App() {
   return (
     <Providers>
-      <AppController />
+      <AppContainer />
     </Providers>
   );
 }

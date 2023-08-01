@@ -26,6 +26,7 @@ body {
   --warning: #f74646;
 
   --tag-and-button: #0079ff;
+  --button-hover: #60abff;
 
   --created-at-light: #697c9a;
 }
@@ -36,7 +37,7 @@ body[data-theme="light"] {
   --text: var(--text-light);
   --text-stats: var(--text-light-stats);
   --banner: var(--banner-light);
-  --created-at: var(--text-light-stats);
+  --created-at: var(--created-at-light);
 }
 
 body[data-theme="dark"] {

@@ -16,6 +16,8 @@
   letter-spacing: 0.15625rem;
 
   background-color: transparent;
+
+  cursor: pointer;
 }
 
 .header button {

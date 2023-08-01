@@ -17,10 +17,4 @@ const UserStats = ({ public_repos, followers, following }) => {
   );
 };
 
-UserStats.defaultProps = {
-  public_repos: 14,
-  followers: 69,
-  following: 0,
-};
-
 export default UserStats;

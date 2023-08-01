@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-import "../userBanner/UserBannerLoading.jsx";
 
 export const UserContext = createContext(null);
 

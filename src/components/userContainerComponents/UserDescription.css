@@ -51,7 +51,15 @@
   padding: 1.5rem;
 }
 
+.not-available-bio {
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 768px) {
+  .user-details {
+    margin-top: 2.5rem;
+  }
+
   .avatar {
     width: 7.3rem;
     height: 7.3rem;
@@ -72,4 +80,7 @@
   .bio {
     font-size: 0.93rem;
   }
+}
+
+@media screen and (min-width: 1440px) {
 }

@@ -14,7 +14,8 @@
   padding-right: 1rem;
 }
 
-.social_info p {
+.social_info p,
+a {
   color: var(--text);
   font-size: 0.8125rem;
   font-style: normal;
@@ -31,8 +32,17 @@
   white-space: nowrap;
 }
 
-.not-available {
-  opacity: 0.4;
+.social_info.not-available p {
+  opacity: 0.5;
+}
+
+.url a {
+  text-decoration: none;
+}
+
+.url a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,5 +51,21 @@
   }
   .social_info img {
     padding-right: 1.5rem;
+  }
+  .social {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12.6rem;
+  }
+
+  .social_info {
+    width: 50%;
   }
 }
