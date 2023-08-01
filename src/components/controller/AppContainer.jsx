@@ -9,7 +9,7 @@ const AppContainer = () => {
   const { fetchUser } = useContext(UserContext);
 
   useEffect(() => {
-    fetchUser("djknoll");
+    fetchUser("oprisor-raul");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

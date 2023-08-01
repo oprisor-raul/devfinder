@@ -30,17 +30,15 @@ a {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+
+  text-decoration: none;
 }
 
 .social_info.not-available p {
   opacity: 0.5;
 }
 
-.url a {
-  text-decoration: none;
-}
-
-.url a:hover {
+.social_info a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -67,5 +65,10 @@ a {
 
   .social_info {
     width: 50%;
+  }
+
+  .social_info p,
+  a {
+    font-size: 1.125rem;
   }
 }

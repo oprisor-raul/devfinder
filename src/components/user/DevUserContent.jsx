@@ -9,15 +9,11 @@ const DevUserContent = () => {
   const { user, loading, error } = useContext(UserContext);
 
   if (loading) {
-    return (
-      <div className="spinner">
-        <p>Loading...</p>
-      </div>
-    );
+    return <p className="loading">Loading...</p>;
   }
 
   if (error) {
-    return <p> Something went wrong</p>;
+    return <p className="error"> No results</p>;
   }
 
   if (!user) {
