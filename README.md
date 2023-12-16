@@ -1,5 +1,7 @@
 # Frontend Mentor - GitHub user search app
 
+https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6
+
 ## The challenge
 
 Your challenge is to build out this GitHub user search app using the [GitHub users API](https://docs.github.com/en/rest/reference/users#get-a-user) and get it looking as close to the design as possible.
