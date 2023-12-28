@@ -7,7 +7,8 @@ https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6
 Your challenge is to build out this GitHub user search app using the [GitHub users API](https://docs.github.com/en/rest/reference/users#get-a-user) and get it looking as close to the design as possible.
 
 ## Stack Utilized in the Project
-This project was primarily developed as an initiation into the intricate world of React. It provided a comprehensive overview features, such as the useContext and useEffect hooks. A cornerstone of this project was the organization of the codebase, with an emphasis on creating compact, reusable components to ensure efficiency and maintainability
+This project was primarily developed as an initiation into the intricate world of React. It provided a comprehensive overview features, such as the useContext and useEffect hooks. A cornerstone of this project was the organization of the codebase, with an emphasis on creating compact, reusable components to ensure efficiency and maintainability.
+
 [![React][React-Programming-Language]][React-url]
 
 ## Screenshots
